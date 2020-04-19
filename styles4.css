@@ -1,0 +1,114 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+    font-size: 18px;
+    font-weight: 300;
+    color:white;
+  }
+h1{
+    color:white;
+    position: relative;
+    top:35px;
+    left:440px;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: underline; 
+}
+.banner{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url("leaves.jpg"); 
+   
+    z-index: -1;
+    height: 100vh;
+    width: 220vh;
+    background-position: center;
+    background-size: cover;
+    position:fixed;
+}
+.text{
+    position: absolute;
+    top: 43px;
+    left:8px;
+    text-align: center;
+    padding:13px;
+}
+.text:hover{
+    text-decoration: underline;
+}
+.view{
+    position:absolute;
+    top:150px;
+    left:470px;
+    color:white;
+    width: 150px;
+    height:150px;
+    /* text-align: center; */
+    text-decoration: none;
+    background-color: rgb(230, 112, 16);
+}
+.view:hover{
+    background-color: rgb(197, 69, 19);
+    transition:0.3s ease;
+}
+.delete{
+    position:absolute;
+    top:150px;
+    left:640px;
+    color:white;
+    width:150px;
+    height:150px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(245, 65, 125);
+}
+.delete:hover{
+    background-color: rgb(245, 30, 102);
+    transition:0.3s ease;
+}
+.insert{
+    position:absolute;
+    top:320px;
+    left:470px;
+    color:white;
+    width: 150px;
+    height:150px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(238, 41, 41);
+}
+.insert:hover{
+    background-color: rgb(250, 16, 16);
+    transition:0.3s ease;
+}
+
+.update{
+    position:absolute;
+    top:320px;
+    left:640px;
+    color:white;
+    width: 150px;
+    height:150px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(23, 199, 230);
+}
+.update:hover{
+    background-color: rgb(38, 147, 197);
+    transition: 0.3s ease;
+}
+
+.logout{
+    position:relative;
+    top:15px;
+    left:10px;
+    padding:4px;
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(173, 255, 66);
+    text-decoration: none;
+    background-color:rgba(8, 58, 20, 0.514);
+    border-radius: 6px;
+}
+.logout:hover{
+    text-decoration: underline;
+}

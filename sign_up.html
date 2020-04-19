@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="styles2.css" >
+	<title>SIGN UP</title>
+</head>
+<body>
+    <section class="banner">
+         <img src="dark_background7.jpg" height="700px" width="1400px"  alt="welcome banner">
+    </section>
+
+    <div id="login_box">
+         <h1>Sign Up</h1>
+     <form  class="form">
+         <label class="notice">Please fill in the form to create an account</label>
+         <br><br>
+         <input type="text" name="username" id="username" placeholder="Username">
+         <input type="text" name="number" id="number" placeholder="Mobile Number">
+         <input type="email" name="email" id="email" placeholder="Email">
+         <input type="password" name="password" id="password" placeholder="Password">
+         <input type="password" name="r_password" id="r_password" placeholder="Re-enter Password">
+         <input type="checkbox" name="remember" id="remember" value="isremember">
+         <label>Remember me</label><br><br>
+         <input class="signup" type="submit" id="signup" value="Sign Up" onclick="isremember()">
+         <input class="cancel" type="submit" id="cancel" value="Cancel">
+     </form>
+    </div>
+</body>
+</html>

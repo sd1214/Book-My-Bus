@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="styles3.css" >
+	<title>Admin login</title>
+</head>
+<body>
+    <section class="banner">
+         <img src="bus14.jpg" height="700px" width="1400px"  alt="welcome banner">
+    </section>
+
+    <div id="admin_login_box">
+         <h1>Admin Login</h1>
+         <br>
+         <form  class="form" action="admin.php" method="POST">
+        <input type="text" name="username" id="username" placeholder="Username">
+         <input type="password" name="password" id="password" placeholder="Password">
+        
+         <input type="checkbox" name="remember" id="remember" value="isremember">
+         <label>Remember me</label><br>
+         <input class="admin_login" type="submit" id="login" value="Login" onclick="isremember()">
+         <!-- <input class="signup" type="submit" id="signup" value="Sign Up"> -->
+         
+     </form>
+    </div>
+</body>
+</html>
